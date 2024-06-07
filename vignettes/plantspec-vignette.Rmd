@@ -33,11 +33,7 @@ Here, we provide an example of the ‘plantspec’ workflow that produces an NIR
 Install 'plantspec' and 'plantspecDB' from GitHub using devtools.
 
 ```{r installation, message = FALSE, warning = FALSE, results = 'hide'}
-<<<<<<< HEAD
-install.packages("devtools", repos = "http://cran.us.r-project.org")
-=======
 install.packages("devtools")
->>>>>>> c58a19b8ff22843a8a9dea72d9cb473be360e571
 library(devtools)
 install_github(repo = "griffithdan/plantspec") # Install analysis package
   library(plantspec)
@@ -155,21 +151,3 @@ Now, evaluate the model validation and use the model to predict new data.
  - Anderson, T. M., Griffith, D. M., Grace, J. B., Lind, E. M., Adler, P. B., Biederman, L. A., ... & Harpole, W. S. (2018). Herbivory and eutrophication mediate grassland plant nutrient responses across a global climatic gradient. Ecology, 99(4), 822-831.
  - Bjorn-Helge Mevik, Ron Wehrens and Kristian Hovde Liland (2013). pls: Partial Least Squares and Principal Component regression. R package version 2.4-3. http://CRAN.R-project.org/package=pls
  - McClure, W., 1998. Software shootout at the idrc98. In: The Ninth International Diffuse Reflectance Conference, Chambersburg, Pennsylvania. 
-
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
